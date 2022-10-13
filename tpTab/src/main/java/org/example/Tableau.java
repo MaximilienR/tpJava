@@ -3,14 +3,14 @@ package org.example;
 public class Tableau {
     public static void getArray() {
         int minVal ;
-        int maxVal   ;
+        int maxVal  ;
           //tableau
         int [] note={10,10,10,10,10,2,2,2,2,1};
         //initialisation
         minVal=note[0];
         maxVal=note[0];
         System.out.println(note[1]);
-        //boucle 
+        //boucle
         for (int init =0 ;init<note.length;init++){
             System.out.println(note[init]);
         }
