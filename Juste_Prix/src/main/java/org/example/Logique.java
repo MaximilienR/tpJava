@@ -21,18 +21,25 @@ public class Logique {
         }else while (NbrUser!=NbrRandom){
             //je demande à l'utilisateur un nombre plus grand
             if (NbrUser<NbrRandom){
+                System.out.println(NbrUser);
                 System.out.println("veuillez entrer un nombre plus grand");
                 int Nbr =scan.nextInt();
+                NbrUser=Nbr;
+                System.out.println(NbrUser);
+
                 //NbrUser==Nbr;
 
                 //break;
                 //je demande un nombre plus petit
             }else if (NbrUser>NbrRandom){
+                System.out.println(NbrUser);
                 System.out.println("veuillez entrer un nombre plus petit");
                 int Nbr =scan.nextInt();
+                NbrUser=Nbr;
+
 
             }
         }
     }
 }
-       //pb : il prends en compte le nouveau chiffre ??
+       //pb : il prends pas en compte le nouveau chiffre ??
