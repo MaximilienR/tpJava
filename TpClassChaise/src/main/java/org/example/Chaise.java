@@ -12,6 +12,7 @@ public class Chaise {
         this.Matiere= matiere;
     }
 
+
     public void setNbrPied(int i) {
     }
 
