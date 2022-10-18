@@ -11,13 +11,13 @@ public class Main {
         System.out.println("veuillez entre les 3 note");
         int i;
         for (i=0; i<3; i++){
-        String note = scan.next();
+        Integer note = scan.nextInt();
             System.out.println(i);
-            for(i = 0; i < note.length; i++){
-                if(note[i] < minVal)
-                    minVal = note[i];
-                if(note[i] > maxVal)
-                    maxVal = note[i];
+            for(i = 0; i < note.; i++){
+                if(note[i] < min)
+                    min = note[i];
+                if(note[i] > max)
+                    max = note[i];
             }
     }
 }}

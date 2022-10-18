@@ -27,6 +27,7 @@ public class Logique {
                 NbrUser=Nbr;
                 System.out.println(NbrUser);
 
+
                 //NbrUser==Nbr;
 
                 //break;
@@ -42,4 +43,3 @@ public class Logique {
         }
     }
 }
-       //pb : il prends pas en compte le nouveau chiffre ??
