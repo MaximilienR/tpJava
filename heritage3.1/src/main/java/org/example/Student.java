@@ -5,7 +5,7 @@ public class Student extends Person {
 
         System.out.println("I'm going to class ");
     }
-    public static void  DisplayAge(){
-        System.out.println("My age is"+Person.SetAge(););
+    public   void  DisplayAge(){
+        System.out.println("My age is" +Person.SetAge(1));
     }
 }
