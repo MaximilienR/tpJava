@@ -1,6 +1,6 @@
 package org.example;
 
-public class Teacher {
+public class Teacher  extends Person{
     public static void Explain(){
         System.out.println("Explanation begins ");
     }
