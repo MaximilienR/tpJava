@@ -1,7 +1,7 @@
 package org.example;
 
 public class Technicien extends Employe{
-    private  int grade ;
+    protected   int grade ;
     private int prime =0;
 
     //mon constructeur
@@ -31,7 +31,8 @@ public class Technicien extends Employe{
     public void calculeSalaire(){
 
       int total = (int) (this.salaire+prime);
-        System.out.println("le salaire est de " +prime);
+        System.out.println("le salaire est de " +total);
+
     };
 
 }

@@ -14,6 +14,7 @@ public class Employe {
         System.out.println(this.nom +" " +this.age+"an "+" "+this.salaire+"€");
 
      };
+
     public void augementation(){
 
     };
