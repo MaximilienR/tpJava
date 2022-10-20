@@ -10,6 +10,7 @@ public class Salarie {
     private String nom;
     private double salaire;
 
+    //constructor
     public Salarie(int id,int matricule, String categorie, String service, String nom,double salaire) {
         this.id=++count;
         this.matricule = matricule;
@@ -19,7 +20,12 @@ public class Salarie {
         this.salaire = salaire;
     }
 
-
+public int getId(){
+        return id;
+}
+public void setId(int id){
+        this.id=id;
+}
 
     public  void afficherSalaire() {
         System.out.println("le salaire de "+this.salaire);
