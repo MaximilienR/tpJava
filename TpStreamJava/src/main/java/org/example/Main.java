@@ -2,6 +2,8 @@ package org.example;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,11 +20,14 @@ public class Main {
                 ,new Transaction(tristan,2012,950)
                 ,new Transaction(tristan,2022,900));
         transactions.stream().allMatch(year ->transactions.getYear()==2011);
-    transactions.stream().filter(transactions.year===2011);
+    transactions.stream().filter(transactions.year==2011);
     transactions.stream().sorted().forEach(System.out.println(););
 
-    if(transactions.stream().anyMatch())
-    )
+        Map<String,Trader>traderMap=transactions.stream().collect(Collectors.toList())
+
+    /*
+   if(transactions.stream().anyMatch())
+    )*/
     }
     /*idée 2 question 1
     Trader trader1=new Trader();
@@ -31,4 +36,15 @@ public class Main {
     Transaction[] transactions1=transactions.stream()
             .filter(trader->getYear()<2012 || getYear()>2010);*/
 
+//4
+Trader[] traderMilan= transctions.stream()
+        .filter(c-> c=="Milan");
+if c!=null{
+        System.out.println("oui il y a des commerçant a milan");
+    }else {
+        System.out.println(
+                "aucun commçant trouvé"
+        );
+    }
 }
+
