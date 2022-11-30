@@ -13,6 +13,9 @@ public class Commentaire {
     private String  contenu;
     private  int note;
 
+    @ManyToOne
+    @JoinColumn(name = "produit_id")
+    private  Produit produit;
     @Temporal(TemporalType.DATE)
     private Date dateCommentaire;
 
@@ -26,6 +29,7 @@ public class Commentaire {
         this.note=note;
     }
 
+     
     public int getId() {
         return id;
     }
