@@ -142,4 +142,12 @@ public class ProduitService implements IDAO<Produit> {
         session.getTransaction().commit();
 
     };
+
+   /* public List<Commentaire> findAllCommentaire() {
+        session = sessionFactory.openSession();
+        session.beginTransaction();
+        Query<Produit> produitQuery = session.createQuery("from Commentaire");
+        session.getTransaction().commit();
+        //return commentaireQuery.list();
+    }*/
 }
