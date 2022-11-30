@@ -105,12 +105,16 @@ public class Ihm {
     }
     private  void addImage(){
         System.out.println("veuillez selectionner une image  ");
-        String marque = scanner.nextLine();
+        String UrlImg = scanner.nextLine();
         try {
-            System.out.println("la veleur du stock est de : "+ " "+ produitService.valeurStockParMarque(marque)+"€");
+            System.out.println("");
         }
         catch (Exception ex){
             System.out.println("une erreur est survenu");
         }
+    }
+    private  void addCommentaire(){
+        System.out.println("veuillez saisir votre meesage ");
+
     }
 }
