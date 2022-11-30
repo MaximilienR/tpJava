@@ -11,7 +11,8 @@ public class Image {
     private  int id;
 
     private  String url;
-
+    @ManyToOne
+    @JoinColumn(name ="idProduit");
     public  Image(){
 
     }

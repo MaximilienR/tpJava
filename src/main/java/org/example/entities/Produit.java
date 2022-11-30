@@ -86,9 +86,26 @@ public class Produit {
     }
 
     @OneToMany(mappedBy = "produit")
-    private List<Commentaire>commentaires=new ArrayList<>();
-
+    private List<Image>images=new ArrayList<>();
+    @OneToMany(mappedBy = "produit")
+    private  List<Commentaire>commentaires;
     public  void ajouterCommentire(Commentaire c){
         commentaires.add(c);
     }
+    //correction ex5
+    /*@OneToMany(mappeBy="produit")
+    private List<Image>image
+    @OneToMany(mappeBy="produit")
+    provate List<Comment> comments
+
+    public Produit(String marque, String reference, Date dateAchaat, double prix){
+    this.marque=marque
+    this.refeence=reference
+    this.dateAchat=dateAchat;
+    this.prix=prix
+
+    publoc List<Image> getImages() {return images;}
+
+    public void setImage(List<Image>images ) {this.images=image }
+    * */
 }
