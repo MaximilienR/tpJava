@@ -94,4 +94,23 @@ public class Ihm {
             System.out.println("erreur de suppression ");
         }
     }
+
+    private void menu2(){
+        System.out.println("--------------------MENU-----------------------------");
+        System.out.println("0 --Quitter le programme ");
+        System.out.println("1 --Ajouter une image à une produit");
+        System.out.println("2 --Ajouter un commentaire à un produit");
+        System.out.println("3 --Afficher les produits supperieur à 4");
+
+    }
+    private  void addImage(){
+        System.out.println("veuillez selectionner une image  ");
+        String marque = scanner.nextLine();
+        try {
+            System.out.println("la veleur du stock est de : "+ " "+ produitService.valeurStockParMarque(marque)+"€");
+        }
+        catch (Exception ex){
+            System.out.println("une erreur est survenu");
+        }
+    }
 }

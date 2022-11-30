@@ -179,7 +179,10 @@ public class Main {
         SessionFactory sessionFactory = new MetadataSources(registre).buildMetadata().buildSessionFactory();
         Session session = sessionFactory.openSession();
         NativeQuery query= session.createSQLQuery("select Reference from Personne WHERE Reference >=4");
-       //////////////////fin exo
+        System.out.println();
+        //////////////////fin exo
+
+
 
         new  Ihm().start();
         }}
