@@ -133,7 +133,7 @@ public class ProduitService implements IDAO<Produit> {
         session.getTransaction().commit();
         session.close();
         return success>0;
-    }
+    };
     ///
     public List<Commentaire> createCommentaire(){
         Session session = sessionFactory.openSession();
@@ -141,5 +141,5 @@ public class ProduitService implements IDAO<Produit> {
         session.save(createCommentaire());
         session.getTransaction().commit();
 
-    }
+    };
 }
