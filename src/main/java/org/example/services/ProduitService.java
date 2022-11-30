@@ -135,5 +135,11 @@ public class ProduitService implements IDAO<Produit> {
         return success>0;
     }
     ///
-    public List<Commentaire>
+    public List<Commentaire> createCommentaire(){
+        Session session = sessionFactory.openSession();
+        session.beginTransaction();
+        session.save(createCommentaire());
+        session.getTransaction().commit();
+
+    }
 }
