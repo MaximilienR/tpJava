@@ -10,10 +10,12 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 public class Test {
     public static void main(String [] args){
 
-        StandardServiceRegistry registry = new  StandardServiceRegistryBuilder();
-        SessionFactory sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();
-
-        Session session= sessionFactory.openSession();
+        private SessionFactory sessionFactory;
+        public ProduitService() {
+            registry = new StandardServiceRegistryBuilder();
+            SessionFactory sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();
+        }
+        Session session= (Session) sessionFactory.openSession();
 
         //creation des produit product
         Produit produit1 = new Produit();
