@@ -15,6 +15,10 @@ public class Ihm {
         do {
             menu();
             choice=scanner.nextLine();
+            switch (choice){
+                case "6":
+                AfficherdossierPatient();
+            }
         } while (!choice.equals("0"));
     }
 
@@ -24,6 +28,11 @@ public class Ihm {
     public void menu(){
         System.out.println("----------MENU-----------");
         System.out.println("0 -- QUITTER LE PROGRAMME");
-        System.out.println();
+        System.out.println("6--Afficher  dossier medical du patient");
     }
+
+    private void  AfficherdossierPatient(){
+        System.out.println("veuillez saisir votre numero de dossier");
+    }
+
 }
