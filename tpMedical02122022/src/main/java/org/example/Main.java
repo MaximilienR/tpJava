@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args)
     {
 
-       // StandardServiceRegistry registry= new StandardServiceRegistryBuilder().configure().build();
+         //  StandardServiceRegistry registry= new StandardServiceRegistryBuilder().configure().build();
         //SessionFactory sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();
         //Session session = sessionFactory.openSession();
 
