@@ -21,6 +21,10 @@ public class Ihm {
                     break;
                 case "6":
                 AfficherdossierPatient();
+                break;
+                case  "7":
+                    RechercherConsultation();
+                    break;
             }
         } while (!choice.equals("0"));
     }
@@ -61,6 +65,11 @@ public class Ihm {
     /*prenom,nom,date,sexe,addresse,numTel*/
     private void  AfficherdossierPatient(){
         System.out.println("veuillez saisir votre numero de dossier");
+
+    }
+
+    private void RechercherConsultation(){
+        System.out.println("jusque la tout va bien ");
     }
    /*
     Test choix du sexe
