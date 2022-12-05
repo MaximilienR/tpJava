@@ -39,8 +39,8 @@ public class Ihm {
         System.out.println("0 -- QUITTER LE PROGRAMME");
         System.out.println("1-- Ajouter un patient ");
         System.out.println("2-- Crééer une consultation ");
-        System.out.println("6--Afficher  dossier medical du patient");
-        System.out.println("7--recherher une consultation par date et patient");
+        System.out.println("3--Afficher  dossier medical du patient");
+        System.out.println("4--recherher une consultation par date et patient");
     }
 
     private  void AjouterPatient(){
