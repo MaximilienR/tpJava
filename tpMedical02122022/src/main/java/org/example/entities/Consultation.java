@@ -12,4 +12,5 @@ public class Consultation {
 
     private Date dateConsultation;
 
+
 }

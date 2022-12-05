@@ -21,15 +21,17 @@ public class Ihm {
                     break;
                 case "2":
                     CreerConsultation();
-                case "6":
+                    break;
+                case "3":
                 AfficherdossierPatient();
                 break;
-                case  "7":
+                case  "4":
                     RechercherConsultation();
                     break;
             }
         } while (!choice.equals("0"));
     }
+
 
 
     /////////////////MENU/////////////////////////////
@@ -42,6 +44,7 @@ public class Ihm {
         System.out.println("3--Afficher  dossier medical du patient");
         System.out.println("4--recherher une consultation par date et patient");
     }
+
 
     private  void AjouterPatient(){
 
@@ -68,9 +71,12 @@ public class Ihm {
     }
     /*prenom,nom,date,sexe,addresse,numTel*/
     private void  AfficherdossierPatient(){
-        System.out.println("veuillez saisir votre numero de dossier");
-        int numDossier =scanner.nextInt();
-        System.out.println("vous avez entré le num "+ numDossier);
+        System.out.println("veuillez saisir votre numero de dossier ");
+        String numDossier =scanner.nextLine();
+        //System.out.println("le nom du patient est "+ " "+nomPatient);
+        System.out.println("veuillez saisir mot de passe");
+        String mdp = scanner.nextLine();
+        System.out.println("votre de passe est "+ "  "+mdp);
     };
 
     private void RechercherConsultation(){
@@ -83,6 +89,11 @@ public class Ihm {
         System.out.println("3:Ajouter une operation Analyse");
         System.out.println("4: Créer une fiche de paiement");
     }
+
+
+
+    //test
+
 
    /*
     Test choix du sexe
