@@ -39,7 +39,16 @@ public class Ihm {
     private  void AjouterPatient(){
         System.out.println("veuillez saisir le nom du patient");
         String nomPatient =scanner.nextLine();
-        System.out.println("le nom est patient est "+ " "+nomPatient);
+        //System.out.println("le nom du patient est "+ " "+nomPatient);
+        System.out.println("veuillez saisir le prenom du patient");
+        String prenomPatient = scanner.nextLine();
+        //System.out.println("le prenom du patient est " + " " +prenomPatient);
+        System.out.println("veuillez saisir l'adresse du patient");
+        String addressePatient=scanner.nextLine();
+        //System.out.println("l'addresse du patient est "+ " "+addressePatient);
+        System.out.println("veuillez saisir votre numero de telephone portable");
+        int numTel = scanner.nextInt();
+        System.out.println("le numero du patient est "+ " "+"0"+numTel);
     }
     /*prenom,nom,date,sexe,addresse,numTel*/
     private void  AfficherdossierPatient(){
