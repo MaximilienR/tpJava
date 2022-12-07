@@ -1,10 +1,10 @@
 package com.example.tp1jee.entities;
 
+
+import org.glassfish.jersey.message.filtering.EntityFiltering;
+
 import javax.persistence.*;
 import java.util.Date;
-import java.util.List;
-
-
 
 @Entity
 public class Produit {
@@ -28,12 +28,11 @@ public class Produit {
 
     }
 
-    public Produit(String marque, String reference, Date dateAchat, double prix, int stock) {
-        this.marque = marque;
-        this.reference = reference;
-        this.dateAchat = dateAchat;
-        this.prix = prix;
-        this.stock = stock;
+    public  Produit(String marque,String reference,double prix,int stock){
+        this.marque=marque;
+        this.reference=reference;
+        this.prix=prix;
+        this.stock=stock;
     }
 
     public int getId() {
@@ -83,28 +82,4 @@ public class Produit {
     public void setStock(int stock) {
         this.stock = stock;
     }
-
-    //Exercie 5
-
-    @OneToMany(mappedBy = "produit")
-    private List<Image> images;
-
-    @OneToMany(mappedBy = "produit")
-    private List<Comment> comments;
-
-    public Produit(String marque, String reference, Date dateAchat,double prix) {
-        this.marque = marque;
-        this.reference = reference;
-        this.dateAchat =dateAchat;
-        this.prix = prix;
-    }
-
-    public List<Image> getImages() {return images;}
-
-    public void setImages(List<Image> images) {this.images = images;}
-
-    public List<Comment> getComments() {return comments;}
-
-    public void setComments(List<Comment> comments) {this.comments = comments;}
-
 }
