@@ -19,10 +19,22 @@ import java.util.List;
 
         public void init(){
             patientService= new PatientService();
-            patients = patientService.getPatients();
+          //  patients = patientService.getPatients();
         }
         @Override
         protected  void doGet(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException{
-            
+            if (request.getParameter("id") != null) {
+                int id = Integer.parseInt(request.getParameter("id"));
+                Patient patient=null;
+                try {
+                  //  patient = patientService.getPatient(id);
+                }catch (Exception e){
+
+                }
+                if(patient !=null){
+                    request.setAttribute("patient",patient);
+                    request.getRequestDispatcher("patient.jsp").forward(request,response);
+                }
+            }
         }
     }

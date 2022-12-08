@@ -1,12 +1,16 @@
-package com.example.tpjavaeemedical.services;
+/*package com.example.tpjavaeemedical.services;
 
 import com.example.tpjavaeemedical.entitites.Patient;
 
+import javax.management.Query;
 import java.util.List;
 
-public class PatientService {
+public class PatientService extends BaseService implements {
 
-    public List<Patient> getPatient(){return  patients;}
-
-    public Patient getPatient(int id){return patients;}
-}
+     /*@Override
+    public  List<Patient>findAll(){
+         session =sessionFactory.openSession();
+         session.beginTrasaction();
+         Query<Patient> patientQuery=session.createQuery()
+     }*/
+//}
