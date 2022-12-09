@@ -11,7 +11,7 @@
     <title>Ajouter un patient</title>
 </head>
 <body>
-  <form action="FormPatient.jsp" method="post" enctype="multipart/form-data">
+  <form action="formPatient.jsp" method="post" enctype="multipart/form-data">
     <div>
       <input type="text" name="name" placeholder="veuillez saisir votre nom">
       <input type="text"name="prenom"  placeholder="veuillez saisir votre prenom">

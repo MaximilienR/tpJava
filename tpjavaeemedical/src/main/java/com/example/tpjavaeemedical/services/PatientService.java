@@ -1,16 +1,14 @@
-/*package com.example.tpjavaeemedical.services;
+package com.example.tpjavaeemedical.services;
 
 import com.example.tpjavaeemedical.entitites.Patient;
 
 import javax.management.Query;
+import java.util.ArrayList;
 import java.util.List;
 
-public class PatientService extends BaseService implements {
+public class PatientService {
+    private static List<Patient> patients = new ArrayList<>();
 
-     /*@Override
-    public  List<Patient>findAll(){
-         session =sessionFactory.openSession();
-         session.beginTrasaction();
-         Query<Patient> patientQuery=session.createQuery()
-     }*/
-//}
+    private List<Patient>getPatients(){return patients;}
+
+}

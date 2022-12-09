@@ -61,8 +61,14 @@
             <artifactId>jfixture-hibernate</artifactId>
             <version>1.0.1</version>
         </dependency>
+<!--test-->
+        <dependency>
+            <groupId>org.glassfish.web</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+            <version>3.0.1</version>
+        </dependency>
     </dependencies>
-
+<!---->
     <build>
         <plugins>
             <plugin>
