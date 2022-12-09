@@ -19,7 +19,9 @@
       <input type="date"name="dateNaissance" placeholder="veuillez saisir votre date de naissance">
       <input type="sexe"name="sexe" placeholder="veuillez indique si tu vous etes une homme ou une femme ">
       <input type="text" name="addresse" placeholder="veuillez saisir votre addresse">
-     </div>
+      <input type="submit"/>
+
+    </div>
     </div>
   </form>
 
