@@ -1,5 +1,5 @@
 import com.example.tpjavaeemedical.entitites.Patient;
-import com.example.tpjavaeemedical.services.PatientService;
+//import com.example.tpjavaeemedical.services.PatientService;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -15,12 +15,12 @@ import java.util.List;
 
         private List<Patient> patients;
 
-        private PatientService patientService;
+        //private PatientService patientService;
 
-        public void init(){
+      /*  public void init(){
             patientService= new PatientService();
           //  patients = patientService.getPatients();
-        }
+        }*/
         @Override
         protected  void doGet(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException{
             if (request.getParameter("id") != null) {
