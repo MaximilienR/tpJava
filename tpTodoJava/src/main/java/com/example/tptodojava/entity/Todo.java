@@ -14,5 +14,5 @@ public class Todo {
     private Date date;
 
     private  boolean etat;
-    
+
 }
