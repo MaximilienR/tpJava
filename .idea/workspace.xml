@@ -2,13 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aece2d0e-6ffb-4a73-88a2-fab141c758b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/heritage3.1/src/main/java/org/example/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/heritage3.1/src/main/java/org/example/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heritage3.1/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/heritage3.1/src/main/java/org/example/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heritage3.1/target/classes/org/example/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/heritage3.1/target/classes/org/example/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heritage3.1/target/classes/org/example/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/heritage3.1/target/classes/org/example/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heritage3.1/target/classes/org/example/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/heritage3.1/target/classes/org/example/Teacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpPendu/src/main/java/org/example/LePendu.java" beforeDir="false" afterPath="$PROJECT_DIR$/tpPendu/src/main/java/org/example/LePendu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpPendu/target/classes/org/example/LePendu.class" beforeDir="false" afterPath="$PROJECT_DIR$/tpPendu/target/classes/org/example/LePendu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cours-test/src/test/java/org/example/CalculatriceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cours-test/src/test/java/org/example/FauxDe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cours-test/src/test/java/org/example/FauxDeNotWin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cours-test/src/test/java/org/example/FibTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cours-test/src/test/java/org/example/GradingCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cours-test/src/test/java/org/example/JeuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cours-test/src/test/java/org/example/RechercheVilleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cours-test/src/test/java/org/example/ShopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cours-test/src/test/java/org/example/YearTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tpjavaeemedical/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tptdd2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tptdd2/src/main/java/org/example/RechercheVille.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tptdd2/src/main/java/org/example/Year.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tptdd3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp_java_poo_partie2" beforeDir="false" afterPath="$PROJECT_DIR$/tp_java_poo_partie2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp_java_poo_partie2/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tp_java_poo_partie2/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp_java_poo_partie2/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tp_java_poo_partie2/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp_java_poo_partie2/src/main/java/org/example/books/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/tp_java_poo_partie2/src/main/java/org/example/books/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/Consultation.java" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/Consultation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/DossierMediacal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/FicheConsultation.java" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/FicheConsultation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/FicheSoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/FicheSoins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/OperationAnalyse.java" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/OperationAnalyse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/Prescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/Prescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/services/PatientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/services/PatientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/resources/hibernate.ctg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/src/main/resources/hibernate.ctg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/webapp/WEB-INF/views/formPatient.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/src/main/webapp/WEB-INF/views/formPatient.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +49,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Public/Documents/java/tp java/heritage3.1"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Public/Documents/java/tp java/cours-test",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -38,8 +62,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666161288850</updated>
+      <workItem from="1671028164624" duration="42000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

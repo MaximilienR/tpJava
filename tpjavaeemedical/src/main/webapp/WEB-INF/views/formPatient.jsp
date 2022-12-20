@@ -7,10 +7,10 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-    <title>Ajouter un patient</title>
-</head>
+ <jsp:include page="../includes/head.jsp"></jsp:include>
 <body>
+<jsp:include page="../includes/header.jsp"></jsp:include>
+
   <form action="formPatient.jsp" method="post" enctype="multipart/form-data">
     <div>
       <input type="text" name="name" placeholder="veuillez saisir votre nom">

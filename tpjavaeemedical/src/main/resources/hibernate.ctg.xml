@@ -8,9 +8,15 @@
 
 <hibernate-configuration>
     <session-factory>
-        <mapping class="org.example.entities.Consultation"></mapping>
-        <mapping class="org.example.entities.Patient"></mapping>
-        <mapping class="org.example.entities.DossierMedical"></mapping>
+        <mapping class="com.example.tpjavaeemedical.entitites.Prescription"></mapping>
+        <mapping class="com.example.tpjavaeemedical.entitites.Consultation"></mapping>
+        <mapping class="com.example.tpjavaeemedical.entitites.OperationAnalyse"></mapping>
+        <mapping class="com.example.tpjavaeemedical.entitites.Patient"></mapping>
+
+        <mapping class="com.example.tpjavaeemedical.entitites.FicheSoins"></mapping>
+          <mapping class="com.example.tpjavaeemedical.entitites.Consultation"></mapping>
+        <mapping class="com.example.tpjavaeemedical.entitites.FicheConsultation"></mapping>
+         <mapping class="com.example.tpjavaeemedical.entitites.DossierMedical"></mapping>
 
     </session-factory>
 </hibernate-configuration>

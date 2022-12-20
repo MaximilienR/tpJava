@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/java_hibernate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tp_java_poo_partie2" vcs="Git" />
   </component>
 </project>
