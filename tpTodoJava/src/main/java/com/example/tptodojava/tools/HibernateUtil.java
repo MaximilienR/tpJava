@@ -1,7 +1,7 @@
 package com.example.tptodojava.tools;
 
 import com.mysql.cj.xdevapi.SessionFactory;
-/*import org.hibernate.HibernateException;
+import org.hibernate.HibernateException;
 public class HibernateUtil {
 
     private static final SessionFactory sessionFactory=buildSessionFactory();
@@ -14,4 +14,4 @@ public class HibernateUtil {
         }
     }
     public static SessionFactory getSessionFactory(){return sessionFactory;}
-}*/
+}
