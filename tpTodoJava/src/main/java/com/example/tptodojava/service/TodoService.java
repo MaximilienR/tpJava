@@ -6,12 +6,16 @@ import com.example.tptodojava.interfaces.IDAO;
 import com.example.tptodojava.tools.ServiceHibernate;
 import com.mysql.cj.Query;
 import jakarta.websocket.Session;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
 public class TodoService  implements IDAO<Todo> {
+
+    @Autowired
+
 
     private ServiceHibernate serviceHibernate;
     private Session session;
