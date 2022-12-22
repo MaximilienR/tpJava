@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>liste client</title>
+</head>
+<body>
+  <h1>liste des client</h1>
+  <div th:each="client:${clients}">
+    <div th:text="${client.getnom}"></div>
+  </div>
+</body>
+</html>
