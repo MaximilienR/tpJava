@@ -10,6 +10,6 @@ public class ReservationTest {
     @BeforeEach
     void setUp(){
         reservation = new Reservation();
-        reservation.set
+
     }
 }
