@@ -15,6 +15,6 @@ public class Posts {
     private  String description;
     private  String title;
 
-    @OneToMany
+    //@OneToMany
 
   }
