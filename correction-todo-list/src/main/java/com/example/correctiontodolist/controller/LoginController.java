@@ -31,15 +31,15 @@ public class LoginController {
         }
         ModelAndView mv = new ModelAndView("pseudo");
         return mv;
-    }
-    @GetMapping("protected")
+    }}
+    /*@GetMapping("protected")
     @ResponseBody
     public String protectedPage() throws IOException {
-        if(!_loginService.isLogged()){
+        if(!_loginService.){
             _response.sendRedirect("login");
         }
         return "protected";
     }
-}
+}*/
 
-}
+
