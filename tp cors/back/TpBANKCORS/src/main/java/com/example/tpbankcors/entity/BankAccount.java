@@ -26,8 +26,8 @@ public class BankAccount {
     //mes constructor
     public BankAccount() {
         //vide
-    }
+    }}
 
-    @ManyToOne
+   /* @ManyToOne
     private  Customer customer;
-}
+}*/

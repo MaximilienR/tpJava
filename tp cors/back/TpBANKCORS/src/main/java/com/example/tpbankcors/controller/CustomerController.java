@@ -20,7 +20,7 @@ public class CustomerController {
 }
 @DeleteMapping()
     public ResponseEntity<String> delete(){
-    return null;
+    return ResponseEntity.status(401).body("suppression impossible");
 }
 }
 
