@@ -1,13 +1,11 @@
 package com.example.tpbankcors.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Data;
 
 import java.math.BigInteger;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Data
@@ -22,4 +20,7 @@ public class AccountOperation {
     private Date operation_date;
 
     private  long bank_account_id;
+
+    @OneToMany
+    List<Customer>customers;
 }

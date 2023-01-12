@@ -27,4 +27,7 @@ public class BankAccount {
     public BankAccount() {
         //vide
     }
+
+    @ManyToOne
+    private  Customer customer;
 }

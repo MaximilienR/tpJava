@@ -4,6 +4,8 @@ package com.example.tpbankcors.entity;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.util.List;
+
 @Entity
 @Data
 @Table(name = "customer")
@@ -18,4 +20,6 @@ public class Customer {
     @Column(name = "name")
     private  String name;
 
+    @OneToMany
+    List<BankAccount>bankAccounts;
 }
