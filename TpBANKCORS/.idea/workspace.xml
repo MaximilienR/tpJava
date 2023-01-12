@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f03011f6-75dc-485d-abbd-d7cda8bc16be" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../TP_DTO_SPRING/src/main/java/com/example/tp_dto_spring/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_DTO_SPRING/src/main/java/com/example/tp_dto_spring/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bethune-cda" beforeDir="false" afterPath="$PROJECT_DIR$/../bethune-cda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pratiqueapirest" beforeDir="false" afterPath="$PROJECT_DIR$/../pratiqueapirest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tpLeboncoinGroupe" beforeDir="false" afterPath="$PROJECT_DIR$/../tpLeboncoinGroupe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp_binome_test" beforeDir="false" afterPath="$PROJECT_DIR$/../tp_binome_test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp_java_poo_partie2" beforeDir="false" afterPath="$PROJECT_DIR$/../tp_java_poo_partie2" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KBdifnYqFy3mgb9K8tnUQ9oYvW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Public/Documents/java/tp java/tp cors/back/TpBANKCORS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f03011f6-75dc-485d-abbd-d7cda8bc16be" name="Changes" comment="" />
+      <created>1673452040740</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673452040740</updated>
+      <workItem from="1673452041938" duration="914000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
