@@ -1,7 +1,5 @@
 package com.example.tpbankcors.controller;
 
-import com.example.tpbankcors.dto.request.CustomerCreateDTO;
-import com.example.tpbankcors.dto.request.CustomerInterfaceDto;
 import com.example.tpbankcors.dto.response.CustomerDTO;
 import com.example.tpbankcors.service.impl.CustomerServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +15,7 @@ public class CustomerController {
     CustomerServiceImpl customerServiceImpl;
 
 @PostMapping("/create-customer")
-   public ResponseEntity<CustomerDTO>createCostomer(@RequestBody CustomerCreateDTO customerDto){
+   public ResponseEntity<CustomerDTO>createCostomer(@RequestBody CustomerDTO customerDto){
     return  new ResponseEntity<>(customerServiceImpl.createCustomer(customerDto), HttpStatus.CREATED);
 }
 @DeleteMapping()

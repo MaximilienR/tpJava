@@ -6,7 +6,7 @@ import lombok.Data;
 
 @Builder
 @Data
-public class CustomerCreateDTO implements CustomerDTO{
+public class CustomerCreateDTO  {
 
 
     private  String email;
@@ -19,7 +19,9 @@ public class CustomerCreateDTO implements CustomerDTO{
         this.name = name;
     }
 
-    public  CustomerCreateDTO(){}
+    public void CustomerDTO(){
+
+    }
 
     public String getEmail() {
         return email;
