@@ -12,14 +12,14 @@ import java.util.List;
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private  int id;
+    private int id;
 
     @Column(name = "email")
-    private  String email;
+    private String email;
 
     @Column(name = "name")
-    private  String name;
+    private String name;
 
-    @OneToMany
-    List<BankAccount>bankAccounts;
+    @OneToMany(mappedBy = "customer")
+    List<BankAccount> bankAccounts;
 }

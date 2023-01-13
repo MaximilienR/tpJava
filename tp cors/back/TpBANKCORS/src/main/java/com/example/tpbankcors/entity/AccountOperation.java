@@ -13,14 +13,17 @@ public class AccountOperation {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //remplacer long
     private BigInteger id;
-    private  Double amount;
-    private  String description;
+    private Double amount;
+    private String description;
 
+    @Temporal(TemporalType.DATE)
     private Date operation_date;
 
-    private  long bank_account_id;
+    private long bank_account_id;
 
-    @OneToMany
-    List<Customer>customers;
+    @ManyToOne
+    @JoinColumn(name = "Customer")
+     private BankAccount bankAccount;
 }

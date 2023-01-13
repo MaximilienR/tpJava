@@ -19,7 +19,7 @@ public class CustomerCreateDTO  {
         this.name = name;
     }
 
-    public void CustomerDTO(){
+    public void CustomerCreateDTO(){
 
     }
 
