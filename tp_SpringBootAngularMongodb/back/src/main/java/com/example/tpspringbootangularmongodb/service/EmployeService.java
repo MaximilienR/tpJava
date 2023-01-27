@@ -11,6 +11,11 @@ public class EmployeService {
     @Autowired
     EmployeRepository employeRepository;
 
-    public Employe createEmploye(Employe employe){return employeRepository.save(employe);}
+    public Employe createEmploye(Employe employe)
+    {return employeRepository.save(employe);}
+
+    public  Employe updateEmploye(Employe employe) {
+        return  employeRepository.save(employe);
+    }
 
 }
