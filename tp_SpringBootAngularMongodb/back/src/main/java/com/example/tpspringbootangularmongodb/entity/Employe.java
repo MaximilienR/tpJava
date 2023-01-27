@@ -8,6 +8,9 @@ import java.util.Date;
 @Data
 public class Employe {
 
+    @Id
+    private String id;
+
 
     private  String firstname;
 

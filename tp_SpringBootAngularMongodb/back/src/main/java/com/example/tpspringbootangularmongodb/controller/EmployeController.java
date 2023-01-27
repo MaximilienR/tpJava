@@ -20,4 +20,8 @@ public class EmployeController {
     public  Employe update(@RequestBody Employe employe){
         return  employeService.updateEmploye(employe);
     }
+    @DeleteMapping("/delete/{id}")
+    public  String delete(@PathVariable String id){
+        return  employeService.deleteEmploye(id);
+    }
 }

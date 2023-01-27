@@ -18,4 +18,9 @@ public class EmployeService {
         return  employeRepository.save(employe);
     }
 
+    public String deleteEmploye(String id){
+        employeRepository.deleteById(id);
+        return "suppression reussit";
+    }
+
 }
