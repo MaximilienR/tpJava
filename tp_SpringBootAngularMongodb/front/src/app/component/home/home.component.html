@@ -1,1 +1,15 @@
-<p>home works!</p>
+<ul ngbNav #nav="ngbNav" class="nav-tabs">
+  <li ngbNavItem>
+    <a ngbNavLink>add</a>
+    <ng-template ngbNavContent>First content</ng-template>
+  </li>
+  <li ngbNavItem>
+    <a ngbNavLink>edit</a>
+    <ng-template ngbNavContent>Second content</ng-template>
+  </li>
+  <li ngbNavItem>
+    <a ngbNavLink>delete</a>
+    <ng-template ngbNavContent>delete</ng-template>
+  </li>
+</ul>
+<div [ngbNavOutlet]="nav"></div>

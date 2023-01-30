@@ -5,6 +5,8 @@ import com.example.tpspringbootangularmongodb.service.EmployeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("api/employe")
 public class EmployeController {
@@ -24,4 +26,10 @@ public class EmployeController {
     public  String delete(@PathVariable String id){
         return  employeService.deleteEmploye(id);
     }
+
+    @GetMapping("read")
+    public List<Employe> get(){
+        return  employeService.getAllEmploye();
+    }
+
 }

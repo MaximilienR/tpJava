@@ -19,5 +19,6 @@ public class Employe {
     private Date startDate;
 
     private  double salary;
+    private  String poste;
 
 }
