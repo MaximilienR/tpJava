@@ -6,9 +6,17 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AccountController {
 
+    @Autowired
+    private AccountsRepository accountsRepository;
+
     @GetMapping("/myAccount")
-    public  String welcome(){
-        return "page account";
+    public Accounts getAccountDetails(@RequestParam int id) {
+        Accounts accounts = accountsRepository.findByCustomerId(id);
+        if (accounts != null ) {
+            return accounts;
+        }else {
+            return null;
+        }
     }
 
 }

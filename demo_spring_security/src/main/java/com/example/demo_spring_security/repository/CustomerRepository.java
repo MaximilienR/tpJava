@@ -9,5 +9,5 @@ import java.util.List;
 @Repository
 public interface CustomerRepository  extends CrudRepository<Customer,Integer> {
 
-    List<Customer>findAllByEmail
+    List<Customer>findByEmail(String email);
 }
