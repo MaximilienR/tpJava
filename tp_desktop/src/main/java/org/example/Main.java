@@ -1,7 +1,15 @@
 package org.example;
 
+import org.example.window.MenuPanel;
+
+import javax.swing.*;
+import java.awt.*;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        JFrame productFrame = new JFrame("Interface gui");
+        productFrame.setSize(new Dimension(500,5000));
+
+        productFrame.setVisible(true);
     }
 }
