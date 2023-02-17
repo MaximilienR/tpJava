@@ -7,11 +7,11 @@ import lombok.Data;
 import javax.swing.*;
 @Data
 
-public class productPanel {
+public class ProductPanel {
 
     private JPanel mainPanel;
     private  JFrame _jFrame;
-    public  productPanel(){
+    public ProductPanel(){
 
     }
 }
