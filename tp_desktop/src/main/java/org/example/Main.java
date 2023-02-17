@@ -12,4 +12,5 @@ public class Main {
         productFrame.setContentPane(new MenuPanel().getTestButton());
         productFrame.setVisible(true);
     }
+ 
 }
