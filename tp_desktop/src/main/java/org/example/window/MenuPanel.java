@@ -9,7 +9,7 @@ public class MenuPanel {
     private JButton testButton;
     private JPanel menu;
 
-    public  MenuPanel(){
+    public  MenuPanel(JFrame productFrame){
         testButton.setText("test");
         menu.add(testButton);
     }
