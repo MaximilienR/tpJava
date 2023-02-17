@@ -17,6 +17,7 @@ public class ProductWindow {
 
     public  ProductWindow(){
         GridBagLayout bagLayout = new GridBagLayout();
+
         bagConstraints = new GridBagConstraints();
         bagConstraints.fill = GridBagConstraints.BOTH;
 
