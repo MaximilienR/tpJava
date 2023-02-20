@@ -5,13 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c766899-8de5-41a9-90a9-fdb6f9107c16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bethune-cda" beforeDir="false" afterPath="$PROJECT_DIR$/../bethune-cda" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pratiqueapirest" beforeDir="false" afterPath="$PROJECT_DIR$/../pratiqueapirest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pratiquespringsecurity" beforeDir="false" afterPath="$PROJECT_DIR$/../pratiquespringsecurity" afterDir="false" />
@@ -19,6 +12,12 @@
       <change beforePath="$PROJECT_DIR$/../security/pratiquespringsecurity" beforeDir="false" afterPath="$PROJECT_DIR$/../security/pratiquespringsecurity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tp cors/front/bank_angular_bethune_dto_cors" beforeDir="false" afterPath="$PROJECT_DIR$/../tp cors/front/bank_angular_bethune_dto_cors" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tp-uber" beforeDir="false" afterPath="$PROJECT_DIR$/../tp-uber" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/panel/ContactPanel.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/panel/ContactPanel.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/panel/ContactPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/panel/ContactPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/panel/ContactPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/panel/ContactPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tpLeboncoinGroupe" beforeDir="false" afterPath="$PROJECT_DIR$/../tpLeboncoinGroupe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tp_binome_test" beforeDir="false" afterPath="$PROJECT_DIR$/../tp_binome_test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tp_dockerfile_spring_postgres" beforeDir="false" afterPath="$PROJECT_DIR$/../tp_dockerfile_spring_postgres" afterDir="false" />
@@ -75,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676897386305</updated>
-      <workItem from="1676897387530" duration="2472000" />
+      <workItem from="1676897387530" duration="4012000" />
     </task>
     <servers />
   </component>

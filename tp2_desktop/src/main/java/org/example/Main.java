@@ -9,6 +9,7 @@ public class Main {
     public static void main(String[] args) {
         JFrame frame  = new JFrame("liste des contacts");
         frame.setSize(new Dimension(500,300));
-        frame.setContentPane(new  ContactPanel(frame).getMainPanel());
+        frame.setContentPane(new  ContactPanel().getRandom());
+        frame.setVisible(true);
     }
 }
