@@ -7,13 +7,21 @@ import javax.swing.*;
 @Data
 public class ContactPanel {
     private JPanel mainPanel;
-    private JTextField textField1;
+    private JPanel Random;
+    private JButton ajouterButton;
     private JButton rechercherButton;
-    private JPanel random;
+    private JTextField textField1;
+    private JLabel tt;
     private JButton modifierButton;
-    private JButton supprimerButton;
-    private JButton detailButton;
+    private JButton test;
+    private JTextField textField2;
+    private JTextField nTextField;
+    private JTextField cityTextField;
     private JFrame _frame;
+
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
+    }
 //    public  ContactPanel(JFrame  frame){
 //        _frame=frame;
 //

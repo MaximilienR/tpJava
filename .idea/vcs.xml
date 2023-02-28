@@ -2,7 +2,21 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bethune-cda" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/demo-mapper-spring-dto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/demo_docker_spring_jsp_covid_19" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/java_hibernate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pratiqueapirest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pratiquespringsecurity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/security/bank_ui_angular" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/security/pratiquespringsecurity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-demo-dto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tp cors/front/bank_angular_bethune_dto_cors" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tp-uber" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tpLeboncoinGroupe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tp_alexandre_max" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tp_binome_test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tp_dockerfile_spring_postgres" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tp_java_poo_partie2" vcs="Git" />
   </component>
 </project>

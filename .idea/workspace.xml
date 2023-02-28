@@ -1,83 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="aece2d0e-6ffb-4a73-88a2-fab141c758b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cours-test/src/test/java/org/example/CalculatriceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cours-test/src/test/java/org/example/FauxDe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cours-test/src/test/java/org/example/FauxDeNotWin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cours-test/src/test/java/org/example/FibTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cours-test/src/test/java/org/example/GradingCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cours-test/src/test/java/org/example/JeuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cours-test/src/test/java/org/example/RechercheVilleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cours-test/src/test/java/org/example/ShopTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cours-test/src/test/java/org/example/YearTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tpjavaeemedical/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tptdd2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tptdd2/src/main/java/org/example/RechercheVille.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tptdd2/src/main/java/org/example/Year.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tptdd3/pom.xml" afterDir="false" />
+    <list default="true" id="3a7183cf-a979-4dea-af49-0a19d32c2085" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tp java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bethune-cda" beforeDir="false" afterPath="$PROJECT_DIR$/bethune-cda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratiqueapirest" beforeDir="false" afterPath="$PROJECT_DIR$/pratiqueapirest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratiqueapirest/src/main/java/com/example/demo/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pratiqueapirest/src/main/java/com/example/demo/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratiqueapirest/src/main/java/com/example/demo/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pratiqueapirest/src/main/java/com/example/demo/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratiqueapirest/src/main/java/com/example/demo/service/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pratiqueapirest/src/main/java/com/example/demo/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratiqueapirest/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pratiqueapirest/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratiquespringsecurity" beforeDir="false" afterPath="$PROJECT_DIR$/pratiquespringsecurity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratiquespringsecurity/src/main/java/com/example/springsecurity/entity/Loans.java" beforeDir="false" afterPath="$PROJECT_DIR$/pratiquespringsecurity/src/main/java/com/example/springsecurity/entity/Loans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratiquespringsecurity/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pratiquespringsecurity/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/bank_ui_angular" beforeDir="false" afterPath="$PROJECT_DIR$/security/bank_ui_angular" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/bank_ui_angular/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/security/bank_ui_angular/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/bank_ui_angular/src/app/components/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/security/bank_ui_angular/src/app/components/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/bank_ui_angular/src/app/interceptors/app.request.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/security/bank_ui_angular/src/app/interceptors/app.request.interceptor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/pratiquespringsecurity" beforeDir="false" afterPath="$PROJECT_DIR$/security/pratiquespringsecurity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/pratiquespringsecurity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security/pratiquespringsecurity/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/pratiquespringsecurity/src/main/java/com/example/springsecurity/config/DemoUsernamePwdAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/pratiquespringsecurity/src/main/java/com/example/springsecurity/config/DemoUsernamePwdAuthenticationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/pratiquespringsecurity/src/main/java/com/example/springsecurity/config/ProjectSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/pratiquespringsecurity/src/main/java/com/example/springsecurity/config/ProjectSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/pratiquespringsecurity/src/main/java/com/example/springsecurity/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/pratiquespringsecurity/src/main/java/com/example/springsecurity/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/pratiquespringsecurity/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/security/pratiquespringsecurity/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp cors/front/bank_angular_bethune_dto_cors" beforeDir="false" afterPath="$PROJECT_DIR$/tp cors/front/bank_angular_bethune_dto_cors" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp cors/front/bank_angular_bethune_dto_cors/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tp cors/front/bank_angular_bethune_dto_cors/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp-uber" beforeDir="false" afterPath="$PROJECT_DIR$/tp-uber" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp-uber/trips-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tp-uber/trips-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp2_desktop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tp2_desktop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp2_desktop/src/main/java/org/example/panel/ContactPanel.form" beforeDir="false" afterPath="$PROJECT_DIR$/tp2_desktop/src/main/java/org/example/panel/ContactPanel.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp2_desktop/src/main/java/org/example/panel/ContactPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/tp2_desktop/src/main/java/org/example/panel/ContactPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp2_desktop/target/classes/org/example/panel/ContactPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/tp2_desktop/target/classes/org/example/panel/ContactPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpLeboncoinGroupe" beforeDir="false" afterPath="$PROJECT_DIR$/tpLeboncoinGroupe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpLeboncoinGroupe/src/main/resources/templates/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpLeboncoinGroupe/src/main/resources/templates/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp_binome_test" beforeDir="false" afterPath="$PROJECT_DIR$/tp_binome_test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp_binome_test/src/main/java/org/example/Bowling.java" beforeDir="false" afterPath="$PROJECT_DIR$/tp_binome_test/src/main/java/org/example/Bowling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp_binome_test/src/main/java/org/example/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/tp_binome_test/src/main/java/org/example/Frame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp_binome_test/target/classes/org/example/Frame.class" beforeDir="false" afterPath="$PROJECT_DIR$/tp_binome_test/target/classes/org/example/Frame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp_dockerfile_spring_postgres" beforeDir="false" afterPath="$PROJECT_DIR$/tp_dockerfile_spring_postgres" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp_dockerfile_spring_postgres/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tp_dockerfile_spring_postgres/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp_java_poo_partie2" beforeDir="false" afterPath="$PROJECT_DIR$/tp_java_poo_partie2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp_java_poo_partie2/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tp_java_poo_partie2/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp_java_poo_partie2/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tp_java_poo_partie2/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp_java_poo_partie2/src/main/java/org/example/books/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/tp_java_poo_partie2/src/main/java/org/example/books/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/Consultation.java" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/Consultation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/DossierMediacal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/FicheConsultation.java" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/FicheConsultation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/FicheSoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/FicheSoins.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/OperationAnalyse.java" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/OperationAnalyse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/Prescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/entitites/Prescription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/services/PatientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/src/main/java/com/example/tpjavaeemedical/services/PatientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/resources/hibernate.ctg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/src/main/resources/hibernate.ctg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpjavaeemedical/src/main/webapp/WEB-INF/views/formPatient.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/tpjavaeemedical/src/main/webapp/WEB-INF/views/formPatient.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Administrateur\.android\avd\Pixel_2_API_30.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2GLI9qpbq48er2PP2X4Pw1vSTag" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2MKOe7cXK346GyT4UiUwCAbp4AF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Public/Documents/java/tp java/cours-test",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="tp_ecf_android.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="aece2d0e-6ffb-4a73-88a2-fab141c758b2" name="Changes" comment="" />
-      <created>1666161288850</created>
+      <changelist id="3a7183cf-a979-4dea-af49-0a19d32c2085" name="Changes" comment="" />
+      <created>1677512909823</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666161288850</updated>
-      <workItem from="1671028164624" duration="42000" />
+      <updated>1677512909823</updated>
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
