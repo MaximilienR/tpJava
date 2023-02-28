@@ -23,8 +23,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this,"vous allez êtres rediregé",Toast.LENGTH_SHORT).show();
+                Intent  intent = new Intent(MainActivity.this,PannierActivity.class);
+               // startActivities(intent);
             }
-            Intent intent = new Intent(MainActivity.this,PannierActivity.class);
+
 
         });
 

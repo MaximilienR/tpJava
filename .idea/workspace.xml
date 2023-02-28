@@ -12,6 +12,7 @@
     <list default="true" id="3a7183cf-a979-4dea-af49-0a19d32c2085" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/PannierActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/PannierActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pratiqueapirest" beforeDir="false" afterPath="$PROJECT_DIR$/pratiqueapirest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pratiqueapirest/src/main/java/com/example/demo/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pratiqueapirest/src/main/java/com/example/demo/controller/EmployeeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pratiqueapirest/src/main/java/com/example/demo/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pratiqueapirest/src/main/java/com/example/demo/service/EmployeeService.java" afterDir="false" />
