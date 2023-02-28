@@ -10,12 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a7183cf-a979-4dea-af49-0a19d32c2085" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tp java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/utils/ContextDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bethune-cda" beforeDir="false" afterPath="$PROJECT_DIR$/bethune-cda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/adapter/ProductListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/adapter/ProductListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/service/ProductApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/service/ProductApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/utils/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/utils/Api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/utils/ContextDB.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pratiqueapirest" beforeDir="false" afterPath="$PROJECT_DIR$/pratiqueapirest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pratiqueapirest/src/main/java/com/example/demo/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pratiqueapirest/src/main/java/com/example/demo/controller/EmployeeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pratiqueapirest/src/main/java/com/example/demo/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pratiqueapirest/src/main/java/com/example/demo/service/EmployeeService.java" afterDir="false" />
@@ -38,10 +40,6 @@
       <change beforePath="$PROJECT_DIR$/tp cors/front/bank_angular_bethune_dto_cors/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tp cors/front/bank_angular_bethune_dto_cors/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp-uber" beforeDir="false" afterPath="$PROJECT_DIR$/tp-uber" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp-uber/trips-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tp-uber/trips-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp2_desktop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tp2_desktop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp2_desktop/src/main/java/org/example/panel/ContactPanel.form" beforeDir="false" afterPath="$PROJECT_DIR$/tp2_desktop/src/main/java/org/example/panel/ContactPanel.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp2_desktop/src/main/java/org/example/panel/ContactPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/tp2_desktop/src/main/java/org/example/panel/ContactPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp2_desktop/target/classes/org/example/panel/ContactPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/tp2_desktop/target/classes/org/example/panel/ContactPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tpLeboncoinGroupe" beforeDir="false" afterPath="$PROJECT_DIR$/tpLeboncoinGroupe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tpLeboncoinGroupe/src/main/resources/templates/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpLeboncoinGroupe/src/main/resources/templates/Login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp_binome_test" beforeDir="false" afterPath="$PROJECT_DIR$/tp_binome_test" afterDir="false" />
@@ -96,6 +94,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Public/Documents/java/bethune-cda/todolistappandroid&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
@@ -171,5 +170,16 @@
       <updated>1677512909823</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

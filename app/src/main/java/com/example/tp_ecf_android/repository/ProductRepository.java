@@ -9,6 +9,6 @@ public class ProductRepository {
     private ProductDao _productDao;
 
     public  ProductRepository(Application application){
-        ContextDataBase db
+        //ContextDataBase db
     }
 }
