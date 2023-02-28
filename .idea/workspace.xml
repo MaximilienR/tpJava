@@ -10,13 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a7183cf-a979-4dea-af49-0a19d32c2085" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/utils/ContextDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/adapter/ProductListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/adapter/ProductListAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/service/ProductApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/service/ProductApiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/utils/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/utils/Api.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tp_ecf_android/utils/ContextDB.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pratiqueapirest" beforeDir="false" afterPath="$PROJECT_DIR$/pratiqueapirest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pratiqueapirest/src/main/java/com/example/demo/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pratiqueapirest/src/main/java/com/example/demo/controller/EmployeeController.java" afterDir="false" />
